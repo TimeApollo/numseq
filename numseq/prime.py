@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""prime is a module to return primes and check for primes."""
+"""prime is a module to return list of primes and check for primes."""
 
 import math
 
