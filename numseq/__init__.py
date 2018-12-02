@@ -1,6 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""numseq package
+
+Contains modules that allow to do different mathmatical functions
+
+author: Aaron Jackson
+Github: TimeApollo
+
+"""
+
 __all__ = [
     'fib',
     'geo',

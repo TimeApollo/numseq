@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""fib module contains a function for fibonacci sequence."""
+
 
 def fib(nth):
     """returns the nth number in fibonacci sequence"""
