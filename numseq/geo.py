@@ -1,14 +1,19 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""Geo is a module of geometric functions."""
+
 
 def square(n):
-    pass
+    """Ginds the square of a value."""
+    return n*n
 
 
 def triangle(n):
-    pass
+    """Finds triangular number based on size of side."""
+    return n * (n + 1) / 2
 
 
 def cube(n):
-    pass
+    """Finds cube of number."""
+    return n**3
