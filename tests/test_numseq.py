@@ -7,10 +7,10 @@ import StringIO
 
 
 class TestNumSeq(unittest.TestCase):
-    """test cases defined in assignment to check modules"""
+    """Test cases defined in assignment to check modules."""
 
     def test_fib(self):
-        """make sure fib prints expected fibonacci sequence"""
+        """Make sure fib prints expected fibonacci sequence."""
         from numseq.fib import fib
 
         saved_stdout = sys.stdout
@@ -30,7 +30,7 @@ class TestNumSeq(unittest.TestCase):
         sys.stdout = saved_stdout
 
     def test_geo(self):
-        """varyifying geo functions from range 0 to 9"""
+        """Varyifying geo functions from range 0 to 9."""
         from numseq.geo import square, triangle, cube
 
         saved_stdout = sys.stdout
@@ -50,7 +50,7 @@ class TestNumSeq(unittest.TestCase):
         sys.stdout = saved_stdout
 
     def test_prime(self):
-        """varifying prime functions in prime module"""
+        """Varifying prime functions in prime module."""
         from numseq.prime import primes, is_prime
 
         saved_stdout = sys.stdout

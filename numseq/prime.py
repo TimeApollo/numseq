@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""prime is a module to return list of primes and check for primes."""
+"""Prime is a module to return list of primes and check for primes."""
 
 import math
 
 
 def primes(n):
-    """list of all primes less than n"""
+    """List of all primes less than n."""
     primes = []
     if abs(n) != n:
         return primes
@@ -22,7 +22,7 @@ def primes(n):
 
 
 def is_prime(m):
-    """determines if integer is prime"""
+    """Determines if integer is prime."""
     if math.floor(m) != m:
         raise Exception("Value must be an interger")
     if abs(m) != m:

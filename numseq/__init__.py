@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""numseq package
+"""Numseq package Containing fibonacci, geometric, and prime number logic.
 
 Contains modules that allow to do different mathmatical functions
 
@@ -10,6 +10,8 @@ Github: TimeApollo
 
 """
 
+__author__ = "Aaron Jackson"
+
 __all__ = [
     'fib',
     'geo',
@@ -17,5 +19,4 @@ __all__ = [
 ]
 
 if __name__ == '__main__':
-    print('wonder if i could run tests from here from tests folder')
     pass
